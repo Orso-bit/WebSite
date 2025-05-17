@@ -116,19 +116,45 @@ a i {
     margin-bottom: 20px; /* Spazio sotto il paragrafo */
 }
 
+#portfolio {
+    margin-top: -100px;
+}
+
+#portfolio h1 {
+    font-size: 60px; /* Dimensione del titolo */
+    margin-bottom: 20px; /* Spazio sotto il titolo */
+}
+
 .portfolio-container {
     display: flex;
     justify-content: center; /* Centra gli elementi orizzontalmente */
-    align-items: center; /* Centra gli elementi verticalmente */
     flex-wrap: wrap; /* Permette di andare a capo se non c'è spazio */
     margin-top: 50px; /* Spazio sopra la sezione "Portfolio" */
     gap: 20px;  /* Spazio tra un box e l'altro */
 }
 
 .portfolio-box {
+  font-family: Arial, Helvetica, sans-serif;
   border-radius: 25px;
   border: 2px solid #73AD21;
   padding: 20px;
-  width: 200px;
-  height: 220px;
+  width: 400px;
+  height: 430px;
+}
+
+.project-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;  /* Puoi regolare la dimensione */
+  font-weight: bold;
+  margin-bottom: 10px; /* Margine sotto il titolo */
+}
+
+.portfolio-box p {
+  margin-bottom: 15px; 
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Courier New', Courier, monospace;
 }
