@@ -115,3 +115,20 @@ a i {
     font-size: 24px; /* Dimensione del paragrafo */
     margin-bottom: 20px; /* Spazio sotto il paragrafo */
 }
+
+.portfolio-container {
+    display: flex;
+    justify-content: center; /* Centra gli elementi orizzontalmente */
+    align-items: center; /* Centra gli elementi verticalmente */
+    flex-wrap: wrap; /* Permette di andare a capo se non c'è spazio */
+    margin-top: 50px; /* Spazio sopra la sezione "Portfolio" */
+    gap: 20px;  /* Spazio tra un box e l'altro */
+}
+
+.portfolio-box {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 220px;
+}
