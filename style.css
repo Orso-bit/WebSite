@@ -99,3 +99,19 @@ a {
 a i {
     margin-right: 10px;
 }
+
+#about {
+    margin-top: 50px; /* Spazio sopra la sezione "About" */
+    font-family: 'Courier New', Courier, monospace; /* Font monospace per il testo */
+    font-size: 20px; /* Dimensione del font */
+}
+
+#about h1 {
+    font-size: 60px; /* Dimensione del titolo */
+    margin-bottom: 20px; /* Spazio sotto il titolo */
+}
+
+#about p {
+    font-size: 24px; /* Dimensione del paragrafo */
+    margin-bottom: 20px; /* Spazio sotto il paragrafo */
+}
