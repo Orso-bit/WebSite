@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #6e5494, #0a0a1f); /* Gradiente da viola/blu chiaro a scuro */
+    color: #6cc644;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Organizza gli elementi in colonna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra orizzontalmente */
+}
+
+#header {
+    width: 100%;
+    padding: 0; /* Rimuove eventuali margini o padding extra */
+}
+
+.container {
+    padding: 0 10%; /* Solo margini orizzontali */
+}
+
+nav {
+    position: fixed; /* Rende la barra di navigazione fissa in cima */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%; /* Aggiungi padding per creare spazio tra il testo e il bordo */
+    z-index: 1000; /* Assicurati che il nav sia sopra gli altri contenuti */
+}
+
+.logo {
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-text {
+    margin-top: 50px; /* Spazio sufficiente per non coprire il testo dalla navbar */
+    font-size: 30px;
+}
+
+.header-text h1 {
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+.header-text h1 span {
+    color: #C678DD; /* Colore viola per il testo */
+}
+
+.header-text p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: flex-start; /* Allinea orizzontalmente a sinistra */
+    align-items: flex-start; /* Allinea verticalmente all'inizio del contenitore */
+    margin-top: 50px; /* Distanza dal testo soprastante */
+}
+
+ul li {
+    margin: 0 20px; /* Spazio tra gli elementi della lista */
+}
+
+a {
+    color: #C678DD;
+    font-size: 70px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+a i {
+    margin-right: 10px;
+}
