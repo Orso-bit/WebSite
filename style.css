@@ -140,6 +140,10 @@ a i {
   padding: 20px;
   width: 400px;
   height: 430px;
+  box-shadow: 
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.15),
+    0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 .project-title {
@@ -157,7 +161,7 @@ a i {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;  /* Puoi regolare la dimensione */
   font-weight: bold;
-  margin-bottom: 10px; /* Margine sotto il titolo */
+  margin-bottom: 15px; /* Margine sotto il titolo */
 }
 
 .description {
@@ -167,5 +171,36 @@ a i {
 }
 
 .feelrec-img {
-  margin-bottom: 17px; /* o quanto preferisci */
+  margin-bottom: 8px; 
+}
+
+.project-title_2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;  /* Puoi regolare la dimensione */
+  font-weight: bold;
+  margin-bottom: 10px; /* Margine sotto il titolo */
+}
+
+.timerchess-img {
+  margin-bottom: 14px; 
+}
+
+.portfolio-container a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+.portfolio-container a:visited {
+  color: inherit;
+}
+
+.project-title,
+.project-title_1,
+.project-title_2 {
+  color: #6cc644; /* Colore verde brillante per i titoli */
+}
+
+.description {
+  color: #6cc644;  /* Colore più neutro o chiaro per la descrizione */
 }
