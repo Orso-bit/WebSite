@@ -153,8 +153,19 @@ a i {
   margin-bottom: 15px; 
 }
 
+.project-title_1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;  /* Puoi regolare la dimensione */
+  font-weight: bold;
+  margin-bottom: 10px; /* Margine sotto il titolo */
+}
+
 .description {
   font-size: 16px;
   line-height: 1.5;
   font-family: 'Courier New', Courier, monospace;
+}
+
+.feelrec-img {
+  margin-bottom: 17px; /* o quanto preferisci */
 }
