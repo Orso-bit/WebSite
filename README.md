@@ -1,4 +1,4 @@
-# Portfolio Personale
+# Portfolio
 
 This is a rudimentary website created to practice with **HTML** and **CSS**.  
 The site acts as a **personal portfolio**, where I collected:
